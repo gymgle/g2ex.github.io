@@ -19,7 +19,7 @@ sudo apt install zsh curl git
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-比较推荐的插件：
+比较推荐的插件如下，需要修改 `~/.zshrc` 配置文件：
 
 ```sh
 plugins=(
@@ -43,35 +43,11 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-## 必需的字体
-
-安装 Powerline 字体，参照 https://github.com/powerline/fonts
-
-```sh
-# clone
-git clone https://github.com/powerline/fonts.git --depth=1
-# install
-cd fonts
-./install.sh
-# clean-up a bit
-cd ..
-rm -rf fonts
-```
-
-如果后续使用的主题要显示图形符号，则需要 `Awesome-Terminal Fonts`。推荐安装 Patched 类型，虽然只有三个字体，不过有 `Droid+Sans+Mono+Awesome.ttf` 已经足够了。
-
-Patched 字体下载： https://github.com/gabrielelana/awesome-terminal-fonts/tree/patching-strategy/patched
-
-```sh
-# 把下载的三个 Patched 字体放到个人字体目录中
-mv *.ttf ~/.local/share/fonts/
-# 更新字体缓存
-fc-cache -vf ~/.local/share/fonts/
-```
-
 ## Oh-My-Zsh 的主题
 
-偏爱 `powerlevel9k` 主题 https://github.com/bhilburn/powerlevel9k
+我更偏爱 `powerlevel9k` 主题，可以定制的地方很多 https://github.com/bhilburn/powerlevel9k
+
+但是，`powerlevel9k` 主题对字体的配置比较麻烦，如果使用这个主题，一定要配置好下面提到的 **必需的字体**。
 
 主题安装 https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
 
@@ -113,20 +89,87 @@ export DEFAULT_USER=`whoami`
 >
 > https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config
 
-## 附赠篇 终端主题
+## 必需的字体
 
-Mac OS X 的 iterm2 主题可以选德古拉配色 https://draculatheme.com
+配置终端字体是问题最多的一个步骤。如果直接使用 oh-my-zsh 的默认主题，只用安装 Powerline 字体即可。对于想要使用看起来更酷一点 `powerlevel9k` 主题，配置要复杂一些。在 Ubuntu 16.04 时，依次按照以下步骤可以正常配置。但在 Ubuntu 18.04 后，以及 Mint 19 以后的版本，参照下一节。
 
-Ubuntu 自带的 Terminal 主题推荐 https://github.com/Mayccoll/Gogh 运行 gosh 后从列表里选择自己喜欢的主题下载，去菜单 Terminal -> Change Profile 修改主题。必要时编辑 Preferences，选择 Powerline Awesome 字体。
+### Ubuntu 16.04
 
----
+安装 Powerline 字体，参照 https://github.com/powerline/fonts
 
-`updated 2018.12.14`
+```sh
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+```
 
-现在开始折腾 Linux Mint 了，Mint 19 基于 Ubuntu 18.04，Terminal 里是无法选择 `awesome-patched` 字体的。试了试 Ubuntu 18.04 的 Terminal 也是如此。这样的结果是一些图形字体无法显示。
+如果后续使用的主题要显示图形符号，则需要 `Awesome-Terminal Fonts`。推荐安装 Patched 类型，虽然只有三个字体，不过有 `Droid+Sans+Mono+Awesome.ttf` 已经足够了。
+
+Patched 字体下载： https://github.com/gabrielelana/awesome-terminal-fonts/tree/patching-strategy/patched
+
+```sh
+# 把下载的三个 Patched 字体放到个人字体目录中
+mv *.ttf ~/.local/share/fonts/
+# 更新字体缓存
+fc-cache -vf ~/.local/share/fonts/
+```
+
+### Ubuntu 18.04 及以后
+
+Mint 19 以及 Ubuntu 18.04 之后的版本，Terminal 里是无法选择 `awesome-patched` 字体的，这样的结果是一些图形字体无法显示。
 
 解决办法是安装这几个字体 https://github.com/gabrielelana/awesome-terminal-fonts/tree/master/fonts 并在 .zshrc 配置文件中把 POWERLEVEL9K 的 MODE 改为 `awesome-fontconfig`：
 
 ```bash
 POWERLEVEL9K_MODE='awesome-fontconfig'
 ```
+
+
+### macOS
+
+Powerline 字体已经很久没有更新了，我现在已经开始使用 nerd 字体了，nerd 字体包含的图形符号更加丰富，比如不同 git 仓库的项目在路径中显示出的标识也不同，github 项目是 github 风格的小猫，gitlab 项目是的 gitlab logo。
+
+在 macOS 中安装 nerd 字体非常方便，使用 brew 即可，比如下面是我选择安装的 nerd 字体：
+
+```sh
+brew cask install \
+  font-dejavusansmono-nerd-font font-dejavusansmono-nerd-font-mono \
+  font-droidsansmono-nerd-font font-droidsansmono-nerd-font-mono \
+  font-hack-nerd-font font-hack-nerd-font-mono \
+  font-inconsolata-nerd-font font-inconsolata-nerd-font-mono \
+  font-meslo-nerd-font font-meslo-nerd-font-mono \
+  font-sourcecodepro-nerd-font font-sourcecodepro-nerd-font-mono
+```
+
+如果非要安装 Powerline 字体，也可以使用 brew 快速安装，比如：
+
+```sh
+brew cask install \
+  font-anonymous-pro \
+  font-dejavu-sans-mono-for-powerline \
+  font-droid-sans \
+  font-droid-sans-mono font-droid-sans-mono-for-powerline \
+  font-meslo-lg font-input \
+  font-inconsolata font-inconsolata-for-powerline \
+  font-liberation-mono font-liberation-mono-for-powerline \
+  font-liberation-sans \
+  font-meslo-lg \
+  font-nixie-one \
+  font-office-code-pro \
+  font-pt-mono \
+  font-raleway font-roboto \
+  font-source-code-pro font-source-code-pro-for-powerline \
+  font-source-sans-pro \
+  font-ubuntu font-ubuntu-mono-powerline
+```
+
+## 关于终端主题
+
+macOS 的 iterm2 主题可以选德古拉配色 https://draculatheme.com
+
+Ubuntu 自带的 Terminal 主题推荐 https://github.com/Mayccoll/Gogh 运行 gosh 后从列表里选择自己喜欢的主题下载，去菜单 Terminal -> Change Profile 修改主题。必要时编辑 Preferences，选择 Powerline Awesome 字体。
