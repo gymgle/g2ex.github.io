@@ -10,6 +10,8 @@ permalink: linux-terminal-zsh-notes
 
 ---
 
+> 最新更新时间 2019-06-20
+
 ## Oh-My-Zsh 安装
 
 前提是需要安装 `zsh` `git` `curl` ：
