@@ -5,6 +5,9 @@
   "hexo": {
     "version": "3.9.0"
   },
+  "scripts": {
+    "deploy": "hexo clean && hexo g -d"
+  },
   "dependencies": {
     "hexo": "^3.9.0",
     "hexo-deployer-git": "^1.0.0",
