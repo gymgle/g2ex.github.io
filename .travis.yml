@@ -9,7 +9,7 @@ branches:
 before_install:
 - git config --global user.name "Gymgle"
 - git config --global user.email "ymgongcn@gmail.com"
-- sed -i '' "s~https://github.com/g2ex/g2ex.github.io.git~https://${ACCESS_TOKEN}@github.com/g2ex/g2ex.github.io.git~" _config.yml
+- sed -i'' "s~https://github.com/g2ex/g2ex.github.io.git~https://${ACCESS_TOKEN}@github.com/g2ex/g2ex.github.io.git~" _config.yml
 
 install:
 - npm install hexo-cli -g
