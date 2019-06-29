@@ -116,7 +116,7 @@ Travis 需要把生成的静态博客网站推送到 Github 博客网站仓库�
 
   生成的 token 一定要复制保存下来。
 
-2. 在 https://travis-ci.org/account/repositories 中点击 hexo-blog 项目的 settings，添加环境变量，把上面僧成的 token 设置为变量，这里的变量名字设置为 `ACCESS_TOKEN` ，和 .travis.yml 中的配置一致。注意，为了安全不要勾选 `DISPLAY VALUE IN BUILD LOG`。
+2. 在 https://travis-ci.org/account/repositories 中点击 hexo-blog 项目的 settings，添加环境变量，把上面生成的 token 设置为变量，这里的变量名字设置为 `ACCESS_TOKEN` ，和 .travis.yml 中的配置一致。注意，为了安全不要勾选 `DISPLAY VALUE IN BUILD LOG`。
 
   ![travis-env-var](https://i.imgur.com/plQDBb4.png)
 
