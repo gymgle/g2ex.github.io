@@ -18,11 +18,11 @@ permalink: hexo-with-travis-ci
 
 下图是 Hexo 手动部署的流程，hexo-blog 可以是本地一个项目，也可以是 Github、Gitlab 等仓库，本地配置好 Hexo 环境后，由 ① 触发部署，将本地生成的静态博客网站 `.delpoy_git` 推送到 Github 的静态博客仓库中。
 
-![hexo-without-travis](https://i.imgur.com/eATg361.png)
+![hexo-without-travis](https://i.imgur.com/eATg361.png "图1. Hexo 手动部署流程")
 
 当引入 Travis 后，整个流程变成了下图所示的流程。hexo-blog 项目必须是一个 Github 仓库了，当有文章更新，本地由 ① 触发，把 Hexo-blog 的源码推送到 Github，剩下的工作由 Travis 完成：获取 Github hexo-blog 仓库中最新的 commit，运行我们定义的 `.travis.yml` 并把生成的静态博客网站 `.deploy_git` 推送 Github 静态博客仓库 xxx.github.io。
 
-![hexo-with-travis](https://i.imgur.com/Yj2Mh1B.png)
+![hexo-with-travis](https://i.imgur.com/Yj2Mh1B.png "图2. 使用 Travis 后的 Hexo 部署流程")
 
 > 注意，这里要区分 Github 中的两个仓库：静态 blog repo 和 Hexo blog repo。前者是博客网站的静态网站项目，由 Github Pages 托管和解析；后者是 Hexo 项目，前者的内容是由后者生成的。
 
@@ -112,13 +112,13 @@ Travis 需要把生成的静态博客网站推送到 Github 博客网站仓库�
 
 1. 登录静态网站项目的 Github 账号，在 https://github.com/settings/tokens 中生成新的 token，并勾选 repo 权限。
 
-  ![github-access-token](https://i.imgur.com/w5oGdKV.png)
+  ![github-access-token](https://i.imgur.com/w5oGdKV.png "图3. 生成 Personal access token")
 
   生成的 token 一定要复制保存下来。
 
 2. 在 https://travis-ci.org/account/repositories 中点击 hexo-blog 项目的 settings，添加环境变量，把上面生成的 token 设置为变量，这里的变量名字设置为 `ACCESS_TOKEN` ，和 .travis.yml 中的配置一致。注意，为了安全不要勾选 `DISPLAY VALUE IN BUILD LOG`。
 
-  ![travis-env-var](https://i.imgur.com/plQDBb4.png)
+  ![travis-env-var](https://i.imgur.com/plQDBb4.png "图4. Travis 添加环境变量")
 
 至此，自动化部署已经配置好了。
 
