@@ -8,13 +8,13 @@ permalink: hexo-with-travis-ci
 
 ---
 
-## 0x0 背景
+## 0x00 背景
 
 使用 Hexo + Github Pages 搭建博客后，每次更新文章需要使用 `hexo d -g` 会在本地生成 `public` 静态博客网站和向 Github 推送的 `.deploy_git` 文件夹。`.deploy_git` 文件夹内容和 `public` 文件夹一致，但多了 Github 博客项目的仓库信息与提交信息。最终，`.deploy_git` 文件夹内的全部内容被推送到 Github 仓库中，由 Github Pages 服务完成静态网站的解析。
 
 当切换工作环境后，需要重新安装 Nodejs 以及配置 Hexo 和它的依赖。而且每次更新文章后，都要 `hexo d -g` 手动部署。这样多次重复的工作非常低效，因此结合现在非常流行的 CI/CD 概念和工具，可以为 Hexo + Github Pages 博客集成 Travis CI 自动部署的能力。当推送博客仓库到 Github 后，由 Travis 自动获取当前 commit 并进行构建，把生成的静态网站推送到 Github Pages 分支。
 
-## 0x1 理解 Hexo 的自动化部署
+## 0x01 理解 Hexo 的自动化部署
 
 下图是 Hexo 手动部署的流程，hexo-blog 可以是本地一个项目，也可以是 Github、Gitlab 等仓库，本地配置好 Hexo 环境后，由 ① 触发部署，将本地生成的静态博客网站 `.delpoy_git` 推送到 Github 的静态博客仓库中。
 
@@ -26,7 +26,7 @@ permalink: hexo-with-travis-ci
 
 > 注意，这里要区分 Github 中的两个仓库：静态 blog repo 和 Hexo blog repo。前者是博客网站的静态网站项目，由 Github Pages 托管和解析；后者是 Hexo 项目，前者的内容是由后者生成的。
 
-## 0x2 如何配置自动化部署
+## 0x02 如何配置自动化部署
 
 再看一次引入 Travis 后的流程图，绿色箭头的流程是 Travis 自动运行的。要想实现自动化部署，需要 Travis：
 
@@ -124,7 +124,7 @@ Travis 需要把生成的静态博客网站推送到 Github 博客网站仓库�
 
 在 Hexo blog 项目中新建一个 git commit，可以在 Travis 中查看项目构建的过程了，不管成功还是失败，你的邮箱都会收到一封构建邮件。
 
-## 0x3 后记
+## 0x03 后记
 
 不论是本文的 Travis 配置，还是其他新鲜的知识，只有理解了技术的原理，才能在遇到问题的时候知道怎么解决，看到别人的解决方法时知道他的思路和为什么要这么做，是否还有更优的方法。
 
