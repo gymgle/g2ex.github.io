@@ -25,7 +25,7 @@ TimelineJS 是 Northwestern University Knight Lab 社区的一个产品，它可
 
 在官网上能看到几个示例，比如对美国歌手惠特妮·休斯顿的生平介绍：https://timeline.knightlab.com/examples/houston/index.html
 
-![whitneyhouston](https://raw.githubusercontent.com/gymgle/imgur/master/2020-04-25_17-49-00.webp)
+![whitneyhouston](https://cdn.jsdelivr.net/gh/gymgle/imgur/2020-04-25_17-49-00.webp)
 
 ### 本文适用的读者
 
@@ -194,7 +194,7 @@ TimelineJS 虽然适用简单，但如果你能够：
 Access to XMLHttpRequest at 'file:///path/to/your/data.json' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https.
 ```
 
-![cors](https://raw.githubusercontent.com/gymgle/imgur/master/2020-04-25_19-41-47.webp)
+![cors](https://cdn.jsdelivr.net/gh/gymgle/imgur/2020-04-25_19-41-47.webp)
 
 跨域错误的原因是 timeline.js 读取的 json 文件是本地文件，不是 http 这种 URL 的。要解决这个问题，可以考虑使用 http server 把页面托管起来。Windows 用户可以选择 [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb) 扩展，把网页目录托管起来。当然 Linux 和 Mac 用户也可以这样用，既然你都用 Linux 或 Mac 了，就跟着我一起折腾吧。
 
