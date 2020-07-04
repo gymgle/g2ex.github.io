@@ -179,6 +179,6 @@ void CDemoDlg::OnBtnTest()
 Demo源码百度网盘下载: http://pan.baidu.com/s/1qW5kwsk 密码: 3u5i
 
 
-  [1]: https://i.imgur.com/K23Z4Eh.png "创建基于对话框的MFC项目"
-  [2]: https://i.imgur.com/l9Dv9Jr.png "程序卡死"
-  [3]: https://i.imgur.com/bwmEU6x.png "多线程运行效果"
+  [1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-10-09_113112.webp "创建基于对话框的MFC项目"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-10-09_134227.webp "程序卡死"
+  [3]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-10-09_161910.webp "多线程运行效果"
