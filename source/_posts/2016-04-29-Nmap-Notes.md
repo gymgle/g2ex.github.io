@@ -16,4 +16,4 @@ permalink: Nmap-Notes
 
 
   [1]: http://pan.baidu.com/s/1dEUxeW5 "Nmap Notes"
-  [2]: https://i.imgur.com/rqdn65X.png "Nmap Notes"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-04-29_nmap.webp "Nmap Notes"
