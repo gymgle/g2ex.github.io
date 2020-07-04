@@ -144,12 +144,12 @@ OK！一切部署完毕！重启Apache，重启Openfire，在局域网中任何�
 4. [http://www.yuexuan.org/?p=1570](http://www.yuexuan.org/?p=1570)
 
 
-  [candy01]:https://i.imgur.com/4EvrCIf.png
-  [xampp01]:https://i.imgur.com/qGRxqdB.png
-  [openfire01]:https://i.imgur.com/bARhKBe.png
-  [openfire02]:https://i.imgur.com/GIbcoZ9.png
-  [openfire03]:https://i.imgur.com/8WfdZTt.png
-  [openfire04]:https://i.imgur.com/JfZVREX.png
-  [openfire05]:https://i.imgur.com/jlg1fXV.png
-  [cmd]:https://i.imgur.com/83ENnjg.png
-  [candy02]:http://i.imgur.com/bkrc69o.png
+  [candy01]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-07-21_candy.webp
+  [xampp01]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-07-21_114012.webp
+  [openfire01]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-07-21_131826.webp
+  [openfire02]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-07-21_132733.webp
+  [openfire03]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-07-21_134016.webp
+  [openfire04]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-07-21_135325.webp
+  [openfire05]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-07-21_135855.webp
+  [cmd]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-07-21_142715.webp
+  [candy02]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-07-21_144608.webp
