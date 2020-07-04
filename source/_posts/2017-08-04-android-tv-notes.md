@@ -77,7 +77,7 @@ Kodi 已经可以称作平台级的多媒体工具了，通过插件，还能把
   [1]: https://www.youtube.com/playlist?list=PLtra-MWzIvZGdqzuA59Jp0dZVzpmNZyT0
   [2]: https://github.com/postern-overwal/postern-stuff
   [3]: https://kodi.tv/download
-  [4]: https://i.imgur.com/FZSq2y7.png
-  [5]: https://i.imgur.com/9xIEHcM.png
-  [6]: https://i.imgur.com/hnfcpiL.jpg
-  [7]: https://i.imgur.com/Jki7VYG.jpg
+  [4]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2017-08-04_112344.webp
+  [5]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2017-08-04_132530.webp
+  [6]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2017-08-04_132531_MITVScreenshot_org.xbmc.kodi.webp
+  [7]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2017-08-04_132532_MITVScreenshot_org.xbmc.kodi.webp
