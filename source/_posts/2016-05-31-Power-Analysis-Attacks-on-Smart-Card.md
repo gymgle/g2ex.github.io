@@ -94,7 +94,7 @@ DES 加密共 16 轮，有效密钥 56 位，这 56 位密钥生成 16 轮子密
 
 
   [1]: https://www.google.com/search?q=%E7%A0%94%E7%A9%B6%E4%BA%BA%E5%91%98%E5%88%A9%E7%94%A8%E6%97%81%E8%B7%AF%E6%94%BB%E5%87%BB%E7%AA%83%E5%8F%96Android%E5%92%8CiOS%E4%B8%8A%E7%9A%84%E5%AF%86%E9%92%A5 "研究人员利用旁路攻击窃取Android和iOS上的密钥"
-  [2]: https://i.imgur.com/y4qfAp3.jpg "旁路举例"
-  [3]: https://i.imgur.com/D6yvQgf.png "能量分析攻击物理连接图"
-  [4]: https://i.imgur.com/yPJvv6u.png "SPA图示"
-  [5]: https://i.imgur.com/cu4lme3.jpg "DES S盒"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-05-31_power_analysis.webp "旁路举例"
+  [3]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-05-31_161613.webp "能量分析攻击物理连接图"
+  [4]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-05-31_161853.webp "SPA图示"
+  [5]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-05-31_DPA_on_DES.webp "DES S盒"
