@@ -353,4 +353,4 @@ Flask是一个非常简单而又非常灵活的框架，这意味着你的应用
 
   [1]: https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04 "initial server setup guide"
   [2]: https://www.digitalocean.com/community/tutorials/how-to-set-up-uwsgi-and-nginx-to-serve-python-apps-on-ubuntu-14-04#definitions-and-concepts "How To Set Up uWSGI and Nginx to Serve Python Apps on Ubuntu 14.04"
-  [3]: https://assets.digitalocean.com/articles/nginx_uwsgi_wsgi_1404/test_app.png "显示内容"
+  [3]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-28_000000_test_app.webp "显示内容"
