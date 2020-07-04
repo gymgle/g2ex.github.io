@@ -148,7 +148,7 @@ RDiscount是使用C写的模版解释器，效率要比Maruku高很多。详情[
 [more]: http://stackoverflow.com/questions/15796274/rdiscount-error-failed-to-build-gem-native-extension "stackoverflow上的问题"
 [more2]: http://forum.ubuntu.org.cn/viewtopic.php?f=52&t=423516&sid=7877f90e773fea818cbafa9e3fd2224f "关于引起更新源索引时Hash Sum mismatch问题的真正原因及解决方案"
 [RdiscountVS]: http://stackoverflow.com/questions/373002/better-ruby-markdown-interpreter "stackoverflow上的问题"
-[Error1]: https://i.imgur.com/iD40S5b.png "运行 rvm requiresments 时发生的错误"
+[Error1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2013-12-04_225737.webp "运行 rvm requiresments 时发生的错误"
 [ubuntu]: http://www.ubuntu.com/ "Ubuntu官网"
 [mint]: http://www.linuxmint.com/ "Linux Mint官网"
 [elementary]: http://elementaryos.org/ "Elementary OS官网"
