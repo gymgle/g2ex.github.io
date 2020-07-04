@@ -99,6 +99,6 @@ if __name__ == '__main__':
 
 
   [1]: http://www.microsoft.com/security/portal/definitions/adl.aspx "MSE离线更新包"
-  [2]: https://i.imgur.com/QSHS5hR.png "302跳转到真实下载链接"
-  [3]: https://i.imgur.com/3MhDxEL.png "设置触发器"
-  [4]: https://i.imgur.com/wiAAP7b.png "设置触发操作"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-17_164832_1.webp "302跳转到真实下载链接"
+  [3]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-17_165928.webp "设置触发器"
+  [4]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-17_165941.webp "设置触发操作"
