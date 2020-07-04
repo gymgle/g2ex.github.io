@@ -277,5 +277,5 @@ Run 'python manage.py migrate' to apply them.
 
 
   [1]: http://wechat-python-sdk.com/ "wechat-python-sdk"
-  [2]: https://i.imgur.com/i62SYEb.png "微信公众号服务器配置"
-  [3]: https://i.imgur.com/OEU2KDM.png "成功接入微信公众平台"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-09-25_195933.webp "微信公众号服务器配置"
+  [3]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-09-25_213826.webp "成功接入微信公众平台"
