@@ -123,5 +123,5 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 ```
 
 
-  [1]: https://i.imgur.com/chFdQqV.png "自定义快捷键"
+  [1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-03-16_085908.webp "自定义快捷键"
   [2]: https://help.ubuntu.com/community/EnvironmentVariables
