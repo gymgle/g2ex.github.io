@@ -155,4 +155,4 @@ POST http://127.0.0.1:7050/chaincode
   [1]: https://g2ex.github.io/2016/11/26/Fabric-Deployment-and-Chaincode-Setup/
   [2]: https://yeasy.gitbooks.io/blockchain_guide/content/hyperledger/install.html
   [3]: https://cr.console.aliyun.com/
-  [4]: https://i.imgur.com/eHmDQlG.jpg
+  [4]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2017-02-17_152821.webp
