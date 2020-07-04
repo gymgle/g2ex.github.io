@@ -307,5 +307,5 @@ CryptDB源码中`doc/README`文档
 http://whitehatty.com/2012/09/30/cryptdb-howto-compile-on-ubuntu-linux-12-04/
 
 
-  [1]: https://i.imgur.com/j10zY12.jpg "CryptDB原理图"
+  [1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-22_162200_cryptdbdiag.webp "CryptDB原理图"
   [2]: https://github.com/google/encrypted-bigquery-client "Google Encrypted BigQuery"
