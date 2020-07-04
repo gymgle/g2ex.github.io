@@ -10,4 +10,4 @@ WinRAR版本：5.01
 ![文件名和参数设置][1]
 
 
-  [1]: https://i.imgur.com/wjsp2qn.png "文件名和参数设置"
+  [1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-06-19_222903.webp "文件名和参数设置"
