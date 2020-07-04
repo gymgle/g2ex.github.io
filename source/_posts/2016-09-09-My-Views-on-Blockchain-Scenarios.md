@@ -50,4 +50,4 @@ permalink: My-Views-on-Blockchain-Scenarios
 因此，区块链技术的应用场景还十分有限，除了货币应用之外，其他行业应用都处于摸索阶段，这也源于区块链技术的不成熟。对待新技术，应该**保持审慎**的态度，区块链技术也不例外。
 
 
-  [1]: https://i.imgur.com/iZt1aHD.png
+  [1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-09-09_blockchain.webp
