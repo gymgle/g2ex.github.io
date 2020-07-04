@@ -127,7 +127,7 @@ python GetDropboxIP.py > hosts_dropbox.txt
 
 
   [1]: http://zh.wikipedia.org/zh-cn/域名服务器缓存污染 "维基百科"
-  [2]: https://i.imgur.com/wwyxB0s.png "nslookup命令图示"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-08-14_215415.webp "nslookup命令图示"
   [3]: http://yannisxu.me/post/reconnect-dropbox
   [4]: http://www.doc001.com/post/2014-06-22
   [5]: https://c9.io
@@ -135,9 +135,9 @@ python GetDropboxIP.py > hosts_dropbox.txt
   [7]: https://www.codebox.io/
   [8]: https://codenvy.com/
   [9]: https://www.nitrous.io/
-  [10]: https://i.imgur.com/SCuQ94L.png "创建工程并编辑"
-  [11]: https://i.imgur.com/DshvVpI.png "新建文件"
-  [12]: https://i.imgur.com/gObHuje.png "执行脚本"
-  [13]: https://i.imgur.com/6nNtCRO.png "下载hosts"
+  [10]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-08-14_225540.webp "创建工程并编辑"
+  [11]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-08-14_230546.webp "新建文件"
+  [12]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-08-14_231032.webp "执行脚本"
+  [13]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-08-14_231306.webp "下载hosts"
   [14]: http://yannisxu.me/post/reconnect-dropbox
   [15]: http://www.doc001.com/post/2014-06-22
