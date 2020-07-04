@@ -74,10 +74,10 @@ ivy.ns.cloudflare.com
 https://blog.xingoxu.com/setup-log/blog-setup/github-pages-ssl.html
 
 
-  [1]: https://i.imgur.com/Vh6d6sm.png "Begin Scan"
-  [2]: https://i.imgur.com/R4P9Cpd.png "CloudFlare Name Servers"
-  [3]: https://i.imgur.com/HJZv6Y0.png "Godaddy Nameservers"
-  [4]: https://i.imgur.com/YUYbflG.png "自定义Nameserver"
-  [5]: https://i.imgur.com/SEUNw03.png "添加CloudFlare提供的Nameservers"
-  [6]: https://i.imgur.com/8AiI1vj.png "CloudFlare网站激活"
+  [1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-14_115601.webp "Begin Scan"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-14_115333.webp "CloudFlare Name Servers"
+  [3]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-14_120422.webp "Godaddy Nameservers"
+  [4]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-14_130458.webp "自定义Nameserver"
+  [5]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-14_130854.webp "添加CloudFlare提供的Nameservers"
+  [6]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-10-14_131608.webp "CloudFlare网站激活"
   [7]: https://github.com/iissnan/hexo-theme-next "Hexo NexT主题"
