@@ -25,6 +25,6 @@ Windows XP/7/8/8.1的hosts位于系统盘的`Windows\System32\drivers\etc`目录
 3. 修改之后为了防止其他程序对hosts修改，在`拒绝`列勾选`写入`。
 
 
-  [1]: https://i.imgur.com/L5IYckU.png "Windows 7修改hosts权限"
-  [2]: https://i.imgur.com/5cLpFT1.png "勾掉简单文件共享"
-  [3]: https://i.imgur.com/wFyFcIK.png "Windows XP修改hosts权限"
+  [1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-08-13_201217.webp "Windows 7修改hosts权限"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-08-13_210635.webp "勾掉简单文件共享"
+  [3]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-08-13_200315.webp "Windows XP修改hosts权限"
