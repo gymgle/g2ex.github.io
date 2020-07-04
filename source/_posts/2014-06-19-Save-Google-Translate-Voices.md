@@ -20,6 +20,6 @@ IE的临时目录一般位于`C:\Users\你的用户名\AppData\Local\Microsoft\W
 3. 如果在Google Translate中输入的文字太多，在IE的临时目录下会生成多个MP3文件，可以巧用WinRAR把多个MP3文件合并为一个。
 
 
-  [1]: https://i.imgur.com/OWAQ0pb.png "清空临时文件后点击设置"
-  [2]: https://i.imgur.com/35UhL7O.png "查看临时文件目录"
+  [1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-06-19_212311.webp "清空临时文件后点击设置"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-06-19_212413.webp "查看临时文件目录"
   [3]: https://translate.google.com/ "Google Translate"
