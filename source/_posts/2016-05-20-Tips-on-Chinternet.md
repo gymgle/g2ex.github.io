@@ -185,11 +185,11 @@ ReachableAddresses reject *:*
 EOF
 
 
-  [1]: https://i.imgur.com/sAKKSVj.png "Shadowsocks Privoxy 组合使用示意图"
+  [1]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-05-20_chinternet.webp "Shadowsocks Privoxy 组合使用示意图"
   [2]: https://www.getlantern.org/ "Lantern"
   [3]: https://github.com/getlantern/lantern "Lantern Github 主页"
   [4]: https://www.torproject.org/ "Tor 官网"
-  [5]: https://i.imgur.com/DPtDl78.png "Tor Browser"
-  [6]: https://i.imgur.com/w8B4bWe.png "Tor 浏览器 + Shadowsocks 组合使用示意图"
+  [5]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-05-20_150316.webp "Tor Browser"
+  [6]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-05-20_chinternet_02.webp "Tor 浏览器 + Shadowsocks 组合使用示意图"
   [7]: https://www.torproject.org/download/ "Tor 下载"
-  [8]: https://i.imgur.com/oRaHkuq.png "Privoxy + Tor + Shadowsocks 组合使用示意图"
+  [8]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2016-05-20_chinternet_03.webp "Privoxy + Tor + Shadowsocks 组合使用示意图"
