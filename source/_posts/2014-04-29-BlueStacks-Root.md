@@ -42,9 +42,9 @@ Google搜索「BlueStacks MultiTool」或者直接打开「BlueStacks MultiTool 
 
 
   [link-xda]:http://forum.xda-developers.com/showthread.php?t=2565644 "xda developers"
-  [pic-1]:https://i.imgur.com/FB9TlQi.png "下载必需的三个工具"
-  [pic-2]:https://i.imgur.com/ZeeH49V.png "放到同一目录"
-  [pic-3]:https://i.imgur.com/Z3NgysR.png "启动BSMultiTool"
-  [pic-4]:https://i.imgur.com/60gFUCN.png "按任意键继续"
-  [pic-5]:https://i.imgur.com/w76VjqC.png "Root完成"
-  [pic-6]:https://i.imgur.com/EYKDOJX.png "下载gapps"
+  [pic-1]:https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-04-29_121633.webp "下载必需的三个工具"
+  [pic-2]:https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-04-29_140944.webp "放到同一目录"
+  [pic-3]:https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-04-29_120149.webp "启动BSMultiTool"
+  [pic-4]:https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-04-29_120201.webp "按任意键继续"
+  [pic-5]:https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-04-29_120339.webp "Root完成"
+  [pic-6]:https://cdn.jsdelivr.net/gh/gymgle/imgur/2014-04-29_135703.webp "下载gapps"
