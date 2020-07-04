@@ -117,4 +117,4 @@ ownCloud默认没有启用文件加密，`root`用户可以在`/var/www/owncloud
   [1]: https://owncloud.org/blog/owncloud-server-8-1-will-not-support-windows-as-server-platform-natively/ "ownCloud Server 8.1 Will Not Support Windows as Server Platform Natively"
   [2]: https://www.apachefriends.org/ "Apache Friendslatform Natively"
   [3]: https://owncloud.org/install/#instructions-server "部署ownCloud"
-  [4]: https://i.imgur.com/W6sMUZN.png "初始化配置ownCloud"
+  [4]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-11-08_211715.webp "初始化配置ownCloud"
