@@ -353,17 +353,17 @@ http://weizhilizhiwei.iteye.com/blog/2157773
 
 
   [1]: http://www.cnblogs.com/mandroid/archive/2011/06/15/2081093.html
-  [2]: https://i.imgur.com/ddbgeF9.png "理解JNI原理"
+  [2]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-01-17_170900.webp "理解JNI原理"
   [3]: https://eclipse.org/downloads/
   [4]: https://eclipse.org/cdt/
   [5]: http://developer.android.com/sdk/index.html#Other
   [6]: http://developer.android.com/tools/sdk/ndk/index.html
   [7]: http://developer.android.com/tools/sdk/eclipse-adt.html
-  [8]: https://i.imgur.com/pzOWK3u.png "New Android Application"
-  [9]: https://i.imgur.com/vo0STbi.png "Add Android Native Support"
+  [8]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-01-17_213510.webp "New Android Application"
+  [9]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-01-17_224538.webp "Add Android Native Support"
   [10]: http://blog.csdn.net/zhandoushi1982/article/details/5316669
-  [11]: https://i.imgur.com/yKJecDJ.png "New Java Class"
-  [12]: https://i.imgur.com/84iwxxM.png "Builder Main Option"
-  [13]: https://i.imgur.com/v0BhWtw.png "Builder Option"
-  [14]: https://i.imgur.com/YXjigdr.png "模拟器运行结果"
-  [15]: https://i.imgur.com/d1PMqXo.png "模拟器运行结果"
+  [11]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-01-17_230000.webp "New Java Class"
+  [12]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-01-17_233948.webp "Builder Main Option"
+  [13]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-01-17_234157.webp "Builder Option"
+  [14]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-01-18_001951.webp "模拟器运行结果"
+  [15]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-01-18_115549.webp "模拟器运行结果"
