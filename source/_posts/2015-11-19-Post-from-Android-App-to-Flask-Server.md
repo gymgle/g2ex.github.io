@@ -224,4 +224,4 @@ public class HttpUtils {
 
   [1]: http://docs.jinkan.org/docs/flask/ "Flask中文开发文档"
   [2]: http://docs.jinkan.org/docs/flask/installation.html "安装Flask"
-  [3]: https://i.imgur.com/EWOsEWF.png "Postman POST测试"
+  [3]: https://cdn.jsdelivr.net/gh/gymgle/imgur/2015-11-18_221835.webp "Postman POST测试"
